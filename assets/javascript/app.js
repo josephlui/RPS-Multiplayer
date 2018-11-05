@@ -38,12 +38,6 @@ function init() {
 
     connectionsRef.on("value", function(snap) {
         console.log(snap.numChildren());
-        if (snap.numChildren() === 1){
-            $('#playerID').text('Player 1');
-        } else {
-            $('#playerID').text('Player 2');
-        }
-      
     });
 
     sessionTime = moment();
