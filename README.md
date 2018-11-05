@@ -15,6 +15,7 @@ N/A
 
 index.html
 assets 
+
   |-- css 
   |-- javascript
   |-- images
